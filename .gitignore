@@ -1,3 +1,12 @@
+# Tauri/Rust build artifacts
+/src-tauri/target/
+
+# Tauri generated stuff (when building releases)
+/src-tauri/gen/
+
+# Super important: User database - NEVER commit!
+playlists.db
+
 # Logs
 logs
 *.log
